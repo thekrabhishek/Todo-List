@@ -54,10 +54,3 @@ A simple, responsive **Todo List** application built with **HTML, CSS, and JavaS
 
 ## Contributing
 Feel free to fork the repository and submit a pull request to improve the functionality or design!
-
-## License
-This project is licensed under the MIT License.
-
----
-
-This README file covers an overview of your project, explains how it works, and includes installation and usage instructions. Be sure to update the placeholders (e.g., `path-to-your-gif`) with actual paths before sharing!
