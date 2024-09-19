@@ -7,6 +7,8 @@ A simple, responsive **Todo List** application built with **HTML, CSS, and JavaS
 
 ![Todo List GIF Demo](https://github.com/user-attachments/assets/8b40b056-1e99-437f-8298-18400ba7f203)
 
+Website Link https://thekrabhishek.github.io/Todo-List/
+
 ## Features
 - **Add Todo:** Users can enter a task name and a due date.
 - **Delete Todo:** Remove tasks from the list.
@@ -42,8 +44,7 @@ A simple, responsive **Todo List** application built with **HTML, CSS, and JavaS
 4. The list persists even after refreshing the browser!
 
 ## Screenshots
-![App Screenshot](<img width="957" alt="Screenshot 2024-09-20 003814" src="https://github.com/user-attachments/assets/2787938f-b399-4fa8-9087-b987126e5971">
-)
+![App Screenshot](https://github.com/user-attachments/assets/2787938f-b399-4fa8-9087-b987126e5971)
 
 ## Future Enhancements
 - Edit tasks feature
