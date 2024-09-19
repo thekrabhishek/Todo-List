@@ -1,0 +1,118 @@
+/* Base styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for heading */
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input fields and button grid */
+.todo-input-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Responsive grid for todo items */
+.todo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.name-input,
+.due-date-input {
+    font-size: 15px;
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    color: #2c3e50;
+}
+
+.add-todo-button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.add-todo-button:hover {
+    background-color: #2ecc71;
+}
+
+.delete-todo-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.delete-todo-button:hover {
+    background-color: #c0392b;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .todo-input-grid, 
+    .todo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .add-todo-button, .delete-todo-button {
+        width: 100%;
+    }
+}
+
+/* Media query for small devices */
+@media (max-width: 480px) {
+    p {
+        font-size: 20px;
+    }
+
+    .name-input, 
+    .due-date-input, 
+    .add-todo-button, 
+    .delete-todo-button {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .todo-input-grid {
+        row-gap: 10px;
+    }
+}
