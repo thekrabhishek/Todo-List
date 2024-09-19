@@ -1,14 +1,11 @@
-Here's a sample **README** file you can use for your Todo List project:
-
----
-
 # 📝 Todo List Application
 
 ## Overview
 A simple, responsive **Todo List** application built with **HTML, CSS, and JavaScript**. This app allows users to create, view, and delete tasks with due dates. It dynamically updates and displays the list of tasks and stores them in local storage.
 
 ## Demo
-![Todo List GIF Demo](path-to-your-gif)
+
+![Todo List GIF Demo](https://github.com/user-attachments/assets/8b40b056-1e99-437f-8298-18400ba7f203)
 
 ## Features
 - **Add Todo:** Users can enter a task name and a due date.
@@ -45,7 +42,8 @@ A simple, responsive **Todo List** application built with **HTML, CSS, and JavaS
 4. The list persists even after refreshing the browser!
 
 ## Screenshots
-![App Screenshot](path-to-screenshot)
+![App Screenshot](<img width="957" alt="Screenshot 2024-09-20 003814" src="https://github.com/user-attachments/assets/2787938f-b399-4fa8-9087-b987126e5971">
+)
 
 ## Future Enhancements
 - Edit tasks feature
