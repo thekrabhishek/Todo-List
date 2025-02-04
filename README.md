@@ -33,7 +33,7 @@ Website Link https://thekrabhishek.github.io/Todo-List/
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/todo-list-app.git
+   git clone https://github.com/thekrabhishek/todo-list-app.git
    ```
 2. Open the `index.html` file in your browser to view the app.
 
